@@ -1,0 +1,13 @@
+Godot Engine v3.4.2.stable.official.45eaa2daf - https://godotengine.org
+OpenGL ES 3.0 Renderer: Intel(R) Iris(TM) Plus Graphics 655
+OpenGL ES Batching: ON
+ 
+Registered camera HD- FaceTime () with id 1 position 0 at index 0
+ERROR: Condition "err" is true. Returned: err
+   at: load_source_code (modules/gdscript/gdscript.cpp:775) - Condition "err" is true. Returned: err
+ERROR: Cannot load source code from file 'res://addons/gut/gut_cmdln.gd'.
+   at: load (modules/gdscript/gdscript.cpp:2179) - Condition "err != OK" is true. Returned: RES()
+ERROR: Failed loading resource: res://addons/gut/gut_cmdln.gd. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:271) - Condition "found" is true. Returned: RES()
+ERROR: Can't load script: addons/gut/gut_cmdln.gd
+   at: start (main/main.cpp:1693) - Condition "script_res.is_null()" is true. Returned: false
